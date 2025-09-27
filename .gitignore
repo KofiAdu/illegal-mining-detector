@@ -23,6 +23,13 @@ frontend/.next/
 frontend/build/
 frontend/dist/
 
+# Ignore model files in backend/app/
+admin_dashboard/backend/app/*.pt
+admin_dashboard/backend/app/*.pth
+admin_dashboard/backend/app/*.h5
+admin_dashboard/backend/app/*.pkl
+
+
 # --- Ignore contents of heavy folders but keep folder structure ---
 
 # Classes folder (all subdirs)

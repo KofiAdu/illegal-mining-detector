@@ -1,0 +1,49 @@
+# --- OS and Editor files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# --- Jupyter ---
+*.ipynb_checkpoints
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/build/
+frontend/dist/
+
+# --- Ignore contents of heavy folders but keep folder structure ---
+
+# Classes folder (all subdirs)
+classes/**
+!classes/.gitkeep
+
+# Data folder and subfolders (train/val)
+data/**
+!data/.gitkeep
+
+# Models folder, ignore model weights
+models/**
+!models/.gitkeep
+
+# Results folder (e.g., CSVs, visual output)
+results/**
+!results/.gitkeep
+
+# Test images (likely large)
+test-images/**
+!test-images/.gitkeep
+
+# QGIS temp stuff
+qgis scripts/.ipynb_checkpoints/

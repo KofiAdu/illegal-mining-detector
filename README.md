@@ -39,7 +39,7 @@ The system supports real-time logging to a MySQL database and is designed to ass
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, Mapbox
-- **Backend:** FastAPI, PyTorch, SQLAlchemy
+- **Backend:** FastAPI, SQLAlchemy
 - **Model:** Pytorch, Remote Sensing
 - **Database:** MySQL
 - **Deployment:** Docker
@@ -193,4 +193,5 @@ This will start the development server at [http://localhost:5173](http://localho
 - **Better user interface**  
   Improve the dashboard experience with validation, image previews, filters, and historical browsing by location or date.
 ---
+
 
